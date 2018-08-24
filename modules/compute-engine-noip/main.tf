@@ -21,7 +21,7 @@ resource "google_compute_instance" "sekolahlinux" {
     subnetwork = "sekolahlinux1"
     
     # erase \\ on access_config if you want use public ip
-    access_config {}
+    \\ access_config {}
   }
 
   # Enable if you want use metadata
